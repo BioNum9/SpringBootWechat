@@ -1,16 +1,16 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url : jdbc:mysql://59.110.140.80:3306/SpringBootWechat?characterEncoding=utf-8&useSSL=false
-    username: root
-    password: aptx4869
+    url : YOUR JDBC URL
+    username: USERNAME
+    password: PASSWORD
   jpa:
     show-sql: true
   #此配置可以使得返回数据如果为null的话自动清空
   jackson:
     default-property-inclusion: non_null
   redis:
-    host: 59.110.140.80
-    port: 6379
+    host: HOST
+    port: PORT
 server:
-  context-path: /sell
+  context-path: PATH
